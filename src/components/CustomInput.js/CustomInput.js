@@ -21,7 +21,7 @@ const CustomInput = ({value, setValue, placeholder, secureTextEntry, type = "PRI
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#fb9a9a",
+    backgroundColor: "#F5D7E3",
     AlignItems: 'center',
     textAlign: 'center',
     width: '100%',

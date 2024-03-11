@@ -10,6 +10,8 @@ import React, { useState } from "react";
 import Logo from "../../../assets/images/genie_icon.png";
 import CustomInput from "../../components/CustomInput.js/CustomInput";
 import CustomButton from "../../components/CustomButton";
+import { Link } from "expo-router";
+
 
 const width_proportion = "80%";
 
@@ -80,11 +82,13 @@ const SignInScreen = () => {
         fgColor="#363636"
       />
 
+  <Link href="/Register" asChild>
       <CustomButton
         text="Create an account"
         onPress={onSignUpPressed}
         type="TERTIARY"
       />
+      </Link>
     </View>
     </ScrollView>
   );

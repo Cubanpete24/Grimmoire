@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
-import SignInScreen from './src/screens/SignInScreen';
-import RegisterScreen from './src/screens/RegisterScreen';
-import ConfirmAccountScreen from './src/screens/ConfirmAccountScreen';
+import SignInScreen from '../src/screens/SignInScreen';
+import RegisterScreen from '../src/screens/RegisterScreen';
+import ConfirmAccountScreen from '../src/screens/ConfirmAccountScreen';
 
 
-export default function App() {
+export default function Page() {
   return (
     <SafeAreaView style={styles.root}>
       <SignInScreen/>
